@@ -1,5 +1,7 @@
 - [介绍](/README.md)
 - [服务器](#)
+  - [开放端口要求](/server/port.md) 
   - [Linux](#)
+    - [常用命令](/server/command.md)
     - [CentOS(Red Hat系)](#)
       - [运行环境搭建](/server/env.md)
