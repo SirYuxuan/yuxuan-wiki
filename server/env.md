@@ -24,6 +24,8 @@ systemctl restart NetworkManager
 > 前置条件，两台服务器都需要有可外网访问的端口，默认 数据库服务器为20000-20005 应用服务器为 30000-30010
 
 > 修改XShell配置，保证中文正常输出
+
+
 ![](https://yuxuan-pic.oss-cn-hangzhou.aliyuncs.com/picGo/202210261633262.png)
 ![](https://yuxuan-pic.oss-cn-hangzhou.aliyuncs.com/picGo/202210261632265.png)
 
