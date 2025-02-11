@@ -10,18 +10,18 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '知识积累',
+    title: '开放 API',
     description: (
       <>
-        记录学习过程中的心得体会，分享技术经验和解决方案，构建个人知识体系。
+        提供丰富的公共 API 接口，助力开发者快速实现功能，打造更好的应用。
       </>
     ),
   },
   {
-    title: '生活记录',
+    title: '技术分享',
     description: (
       <>
-        分享生活中的点点滴滴，记录美好时刻，留下成长的足迹。
+        分享 Rust 等技术的学习心得，探讨编程技巧，共同提高开发技能。
       </>
     ),
   },
@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
     title: '持续更新',
     description: (
       <>
-        保持学习的热情，不断探索新的技术领域，持续更新知识库内容。
+        持续开发新的 API 接口，不断扩展功能，及时更新文档，提供更好的服务。
       </>
     ),
   },

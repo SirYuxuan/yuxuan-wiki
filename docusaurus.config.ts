@@ -67,6 +67,12 @@ const config: Config = {
           label: 'Rust',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'apiSidebar',
+          position: 'left',
+          label: 'API',
+        },
+        {
           href: 'https://github.com/SirYuxuan/yuxuan-wiki',
           label: 'GitHub',
           position: 'right',
