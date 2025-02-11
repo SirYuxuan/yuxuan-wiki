@@ -1,41 +1,43 @@
-# Website
+# 雨轩 Wiki
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+这是一个使用 Docusaurus 2 构建的个人知识库网站，用于记录学习与生活。
 
-### Installation
+## 特点
 
-```
-$ yarn
-```
+- 🚀 基于 Docusaurus 2 构建
+- 📝 支持 Markdown 文档
+- 🎨 美观的界面设计
+- 🌙 支持深色模式
+- 🔍 全文搜索功能
+- 📱 响应式设计
 
-### Local Development
+## 开发
 
-```
-$ yarn start
-```
+```bash
+# 安装依赖
+npm install
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+# 本地开发
+npm run start
 
-### Build
+# 构建
+npm run build
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+# 部署
+npm run serve
 ```
 
-Not using SSH:
+## 文档结构
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+- `/docs/rust/` - Rust 相关文档
+- 更多文档正在添加中...
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 技术栈
+
+- [Docusaurus 2](https://docusaurus.io/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## 许可证
+
+Copyright © 2024 雨轩 Wiki
