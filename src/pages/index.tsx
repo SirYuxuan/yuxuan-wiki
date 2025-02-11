@@ -11,7 +11,14 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
-      <div className="container">
+      <div className={styles.decorCircle + ' ' + styles.decorCircle1}></div>
+      <div className={styles.decorCircle + ' ' + styles.decorCircle2}></div>
+      <div className={styles.decorCircle + ' ' + styles.decorCircle3}></div>
+      <div className={styles.decorDot + ' ' + styles.dot1}></div>
+      <div className={styles.decorDot + ' ' + styles.dot2}></div>
+      <div className={styles.decorDot + ' ' + styles.dot3}></div>
+      <div className={styles.decorDot + ' ' + styles.dot4}></div>
+      <div className={clsx('container', styles.heroContent)}>
         <h1 className={styles.heroTitle}>
           {siteConfig.title}
         </h1>
